@@ -78,7 +78,7 @@
                 data.append("password", _password);
                 
                 $.ajax({
-                   url: 'http://auth.permaviat.ru/login.php',
+                   url: 'ajax/login_user.php',
 					type: 'POST',
 					data: data,
 					processData: false,
